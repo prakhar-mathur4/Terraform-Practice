@@ -15,11 +15,19 @@ practices, including networking, security, and cost-effective node groups.
 ## Folder Structure
 
 ├── main.tf # Main Terraform configuration
+
 ├── vpc.tf # VPC configuration
+
 ├── eks.tf # EKS Cluster setup
+
 ├── variables.tf # Variables for Terraform modules
+
 ├── iam.tf # IAM roles and policies for worker nodes
+
 ├── outputs.tf # Outputs for Terraform modules
+
 ├── outputs.tf # Outputs for Terraform modules
+
 ├── security_group.tf # Custom security group for node access(HTTP, SSH, etc.)
+
 └── README.md # Project Documentation
